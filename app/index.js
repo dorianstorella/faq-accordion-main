@@ -7,8 +7,8 @@ function openOnglet()
    // console.log(element.attributes);
     element.removeAttribute("src");
     element.setAttribute("src", "../faq-accordion-main/assets/images/icon-minus.svg");
-    //console.log(element.children().css("display") == "none");
-    console.log(element.children)
+    element.nextElementSibling.style.display = "block";
+
 }
 
 for (let index = 0; index < icon.length; index++) 
