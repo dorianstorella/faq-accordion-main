@@ -1,35 +1,69 @@
-@import url(https://fonts.google.com/specimen/Work+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;700&display=swap');
 body {
-    font-family:specimen sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     background-color:white;
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+}
+#font-img{
+    width: 100%;
+    margin: 0;
+    position: relative;
 }
 
+
 #faq-main {
-    width: 350px;
+    width: 450px;
     height:auto;
+    background-color: white;
+    position:relative;
+    padding: 25px;
     margin: auto;
-    border:1px solid black;
     border-radius: 10px;
-    padding: 10px;
+    margin-top: -120px;
+}
+
+#shadow {
+    width: 500px;
+    height:auto;
+    background-color: white;
+    box-shadow: 0px 10px 10px 30px hsl(292, 16%, 97%);
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+#img-star {
+    width:25px;
+    margin-right: 15px;
+}
+
+h1 {
+  color:hsl(292, 42%, 14%);
+  font-weight: 800;
 }
 
 h2 {
     display: inline;
     color: hsl(292, 42%, 14%);
-    font-size: 27px;
+    font-size: 18px;
 }
 h2:hover {
-    color: hsl(292, 16%, 49%);   
+    color: hsl(275, 100%, 65%);   
 }
 
 p {
-    color: hsl(275, 100%, 80%);
+    color: hsl(292, 16%, 49%);
     font-size: 16px;
+    /*display: none;*/
 }
 .button-icon-plus {
     height: 20px;
     width: 20px;
     display: inline;
+    float: right;
 }
 
