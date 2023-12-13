@@ -71,3 +71,17 @@ p {
     display: none;
 }
 
+@media screen and (max-width:600px) 
+{
+    
+    #faq-main {
+        width: 70%;
+        margin-top: -50px;
+    }
+    
+    .accordion {
+        margin: 10px 0 10px 0;
+        display: flex;
+    }
+
+}
