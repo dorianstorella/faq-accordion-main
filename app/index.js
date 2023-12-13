@@ -1,12 +1,3 @@
- 
-const icon = document.getElementsByClassName("button-icon-plus") 
-
-for (let index = 0; index < icon.length; index++) 
-{
-    const element = icon[index];
-    element.setAttribute("onclick", "openOnglet()");
-}
-
 function openOnglet()
 {
     let closeOtherOnglet = document.getElementsByClassName("button-icon-plus");
