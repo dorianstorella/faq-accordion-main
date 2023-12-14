@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;600;700&display=swap');
 
 body {
     font-family: 'Work Sans', sans-serif;
@@ -21,10 +20,10 @@ body {
     height:auto;
     background-color: white;
     position:relative;
-    padding: 25px;
+    padding: 50px 50px 10px 50px;
     margin: auto;
     border-radius: 10px;
-    margin-top: -120px;
+    margin-top: -150px;
 }
 
 #shadow {
@@ -38,18 +37,20 @@ body {
 }
 
 #img-star {
-    width:25px;
-    margin-right: 15px;
+    width:32px;
+    margin-right: 25px;
     transform: scale(115%);
 }
 
 h1 {
   color:hsl(292, 42%, 14%);
-  font-weight: 800;
+  font-weight: 700;
+  font-size: 42px;
+  margin: 0 0 0 0;
 }
 
 .accordion {
-    margin: 50px 0 50px 0;
+    margin: 35px 0 65px 0;
     
 }
 .inline-align {
@@ -61,7 +62,7 @@ h2 {
     color: hsl(292, 42%, 14%);
     font-size: 18px;
     margin: 0;
-    
+    font-weight: 600;
 }
 
 h2:hover {
@@ -80,6 +81,10 @@ p {
     color: hsl(292, 16%, 49%);
     font-size: 16px;
     display: none;
+}
+
+.first-onglet {
+    display: block;
 }
 
 @media screen and (max-width:600px) 
