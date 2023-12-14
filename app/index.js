@@ -5,10 +5,10 @@ function openOnglet()
     for (let index = 0; index < closeOtherOnglet.length; index++)
     {
         const element = closeOtherOnglet[index];
-       
-        if(element.nextElementSibling.style.display === "block")
+
+        if(element.parentElement.nextElementSibling.style.display === "block")
         {
-            element.nextElementSibling.style.display = "none";
+            element.parentElement.nextElementSibling.style.display = "none";
             element.setAttribute("src", "../faq-accordion-main/assets/images/icon-plus.svg");
             element.setAttribute("onclick", "openOnglet()");
         }
@@ -18,7 +18,7 @@ function openOnglet()
     let element = document.activeElement
     element.setAttribute("src", "../faq-accordion-main/assets/images/icon-minus.svg");
     element.setAttribute("onclick", "closeOnglet()");
-    element.nextElementSibling.style.display = "block";
+    element.parentElement.nextElementSibling.style.display = "block";
 
 }
 
@@ -27,6 +27,6 @@ function closeOnglet()
     let element = document.activeElement
     element.setAttribute("src", "../faq-accordion-main/assets/images/icon-plus.svg");
     element.setAttribute("onclick", "openOnglet()");
-    element.nextElementSibling.style.display = "none";
+    element.parentElement.nextElementSibling.style.display = "none";
 }
 

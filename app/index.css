@@ -50,6 +50,9 @@ h1 {
 
 .accordion {
     margin: 50px 0 50px 0;
+    
+}
+.inline-align {
     position: relative;
 }
 
@@ -58,6 +61,7 @@ h2 {
     color: hsl(292, 42%, 14%);
     font-size: 18px;
     margin: 0;
+    
 }
 
 h2:hover {
