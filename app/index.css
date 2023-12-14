@@ -16,18 +16,19 @@ body {
 
 
 #faq-main {
-    width: 550px;
-    height:auto;
+    width: 520px;
+    height: auto;
     background-color: white;
-    position:relative;
-    padding: 50px 50px 10px 50px;
+    position: relative;
+    padding: 40px 40px 10px 40px;
     margin: auto;
+    margin-top: auto;
     border-radius: 10px;
     margin-top: -150px;
 }
 
 #shadow {
-    width: 600px;
+    width: 500px;
     height:auto;
     background-color: white;
     box-shadow: 0px 10px 10px 30px  hsl(275, 100%, 94%);
@@ -81,6 +82,8 @@ p {
     color: hsl(292, 16%, 49%);
     font-size: 16px;
     display: none;
+    margin: 25px 0px 5px 0px;
+    line-height: 22px;
 }
 
 .first-onglet {
